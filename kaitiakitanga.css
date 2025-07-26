@@ -105,7 +105,6 @@ header h1 {
 .homepage_image {
     width: 550px;
     height: auto;
-    flex-shrink: 0px;
     border: 4px solid #FCC75D;
     margin-left: 20px;
 }
