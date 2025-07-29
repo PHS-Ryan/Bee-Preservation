@@ -1,5 +1,7 @@
+/*Import font from google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
 
+/*Apply a base style to all elements*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,6 +9,7 @@
     background-color: #FFFBEB;
 }
 
+/*Styling for navigation bar lists and links*/
 li, a {
     font-family: "Montserrat"; 
     font-weight: 550;
@@ -15,6 +18,7 @@ li, a {
     text-decoration: none;   
 }
 
+/*Styling for header*/
 header {
     display: flex;
     justify-content: space-between;
@@ -23,35 +27,39 @@ header {
     background-color: #FFE270;
 }
 
-.logo {
-    cursor: pointer;
-}
 
+/*Styling for the navigation bar links*/
 .nav__links {
     list-style: none;
     background-color: #FFE270;
 }
 
+/*Lists styling items*/
 .nav__links li {
     display: inline-block;
     padding: 0px 0px;
     background-color: #FFE270;
 }
 
+/*Transition timing for navigation bar*/
 .nav__links li a {
     transition: all 0.3s ease 0s;
 }
 
+/*Hover color for navigation bar*/
 .nav__links li a:hover {
     color: #0088a9;
 }
 
+/*Styles for logo image*/
 .logo {
     height: 130px;
     width: auto;
     vertical-align: middle;
+    cursor: pointer;
 }
 
+/*Navigation bar spacing and basic layout*/
 nav ul {
     list-style: none;
     display: flex;
@@ -61,6 +69,7 @@ nav ul {
     height: 40px;
 }
 
+/*Styling for text on navigation bar*/
 nav li a {
     text-decoration: none;
     color: black;
@@ -69,6 +78,7 @@ nav li a {
     border-radius: 10px;
 }
 
+/*Main title in header*/
 header h1 {
     background-color: #FFE270;
     font-size: 40px;
@@ -77,12 +87,14 @@ header h1 {
     font-weight: 550;
 }
 
+/*Text block beside image*/
 .text {
     flex: 1;
     margin-right: 0px;
     text-align: center;
 }
 
+/*Paragraphs inside the text block*/
 .text p {
     font-size:25px;
     line-height: 150%;
@@ -91,17 +103,20 @@ header h1 {
     font-weight: 550;
 }
 
+/*Heading in text block*/
 .text h1 {
     font-size: 40px;
     font-family: "Montserrat"; 
 }
 
+/*Subheading in text block*/
 .text h2{
     font-size: 27px;
     font-family: "Montserrat"; 
     margin-top: 30px;
 }
 
+/*Styling for homepage image*/
 .homepage_image {
     width: 550px;
     height: auto;
@@ -109,6 +124,7 @@ header h1 {
     margin-left: 20px;
 }
 
+/*Container for main content, image and text*/
 .content {
     display: flex;
     align-items: center;
@@ -119,6 +135,7 @@ header h1 {
     padding-right: 50px;
 }
 
+/*Section for the info of kaitiakitanga*/
 .infomation {
     max-width: 1200px;
     margin: 80px auto;
@@ -127,6 +144,7 @@ header h1 {
     padding: 20px;
 }
 
+/*Paragraph styling inside the info section*/
 .infomation p {
     font-family: "Montserrat";
     font-size: 25px;
@@ -136,16 +154,19 @@ header h1 {
     line-height: 150%;
 }
 
+/*Heading for info section*/
 .infomation h1 {
     font-size: 40px;
     text-align: center;
     margin-bottom: 40px;
 }
 
+/*Adds space at the bottom of page */
 body {
     padding-bottom: 50px;
 }
 
+/*Styling for the sunflower image*/
 .sunflower {
     max-width: 100%;
     width: 500px;
@@ -155,6 +176,7 @@ body {
     border: 4px solid #FCC75D;
 }
 
+/*Flex container for the layout*/
 .infomation-flex{
     display: flex;
     align-items: flex-start;
@@ -163,11 +185,13 @@ body {
     flex-wrap: nowrap; 
 }
 
+/*Container for the text in the info section*/
 .text-box {
     max-width: 600px;
     flex-shrink: 1;
 }
 
+/*Heading inside the text box*/
 .text-box h1 {
     font-size: 35px;
     text-align: center;
